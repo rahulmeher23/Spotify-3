@@ -1,0 +1,68 @@
+.mobile-menu-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  /* position: relative; */
+}
+
+.mobile-navbar-container {
+  display: flex;
+  /* box-sizing: border-box; */
+  margin: 15px;
+  justify-content: space-between;
+}
+
+.mobile-logo {
+  width: 175px;
+}
+
+.menu-icon-container {
+  display: flex;
+  width: 50px;
+  justify-content: right;
+  align-items: center;
+}
+
+.menu-icon {
+  height: 30px;
+}
+
+.nav-body {
+  position: relative;
+}
+
+.mobile-songs-list-wrapper {
+  /* height: 480px; */
+  border: none;
+  /* position: absolute; */
+}
+
+.body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-player-container {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  opacity: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.display {
+  display: contents;
+}
+
+@media (max-width: 850px) and (max-height: 850px) {
+  .play {
+    margin-top: 70px;
+  }
+
+  .body {
+    max-height: 85vh;
+  }
+}

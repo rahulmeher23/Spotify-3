@@ -1,0 +1,84 @@
+.controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left-controls {
+  width: 48px;
+  position: relative;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  opacity: 10%;
+}
+
+.dots {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+
+.center-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 176px;
+  height: 50.24px;
+}
+
+.forward-icon-container,
+.backward-icon-container {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 60%;
+}
+
+.backward-icon,
+.forward-icon {
+  width: 24px;
+  color: #fff;
+  height: 20px;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-icon {
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.right-controls {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.volume-icon {
+  color: #fff;
+  position: absolute;
+}

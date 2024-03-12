@@ -1,0 +1,125 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  height: 510px;
+  width: 480px;
+  gap: 24px;
+}
+
+.player-cover-container {
+  width: 480px;
+  height: 480px;
+}
+
+.player-cover {
+  width: 480px;
+  height: 480px;
+  max-height: 480px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.seeker-container {
+  height: 6px;
+  box-sizing: border-box;
+  position: relative;
+  color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
+}
+
+.slider {
+  width: 100%;
+  height: 6px;
+}
+
+.progress-bar {
+  position: absolute;
+  color: #fff;
+  background-color: #fff;
+  height: 6px;
+  border-radius: 16px;
+  width: 40%;
+}
+
+.range {
+  background-color: #fff;
+  opacity: 20%;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  height: 6px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.range:focus {
+  outline: none;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  opacity: 5%;
+}
+
+@media (max-width: 450px) {
+  .center {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 100%;
+    gap: 24px;
+  }
+
+  .player-cover-container {
+    width: 100%;
+    height: 200px;
+  }
+
+  .player-cover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 850px) {
+  .center {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 100%;
+    gap: 24px;
+  }
+
+  .player-cover-container {
+    width: 100%;
+    height: 200px;
+  }
+
+  .player-cover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1600px) {
+  .center {
+    width: 300px;
+    height: 300px;
+  }
+
+  .player-cover-container {
+    width: 100%;
+    height: 95%;
+  }
+
+  .player-cover {
+    /* width: 300px; */
+    width: 100%;
+    height: 100%;
+  }
+}

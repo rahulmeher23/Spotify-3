@@ -1,0 +1,62 @@
+/* .spotify-logo-wrapper {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 862px;
+  padding-top: 32px;
+  padding-left: 32px;
+} */
+
+.spotify-logo-wrapper {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 92vh;
+  padding-top: 32px;
+  padding-left: 32px;
+}
+
+.spotify-logo {
+  width: 132px;
+  height: 40px;
+}
+
+.logo-img {
+  background-color: inherit;
+  width: 132px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.profile-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.profile-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+/* @media (max-width: 450px) {
+  .logo-img {
+    width: 175px;
+    height: 100%;
+  }
+} */
+
+@media (max-width: 850px) {
+  .logo-img {
+    width: 175px;
+    height: 100%;
+  }
+}
+
+@media (max-height: 800px) {
+  .spotify-logo-wrapper {
+    max-height: 96vh;
+  }
+}
