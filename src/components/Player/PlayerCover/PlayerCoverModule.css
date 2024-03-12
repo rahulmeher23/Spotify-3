@@ -69,6 +69,7 @@
     height: 230px;
     width: 100%;
     gap: 24px;
+    min-width: 350px;
   }
 
   .player-cover-container {
